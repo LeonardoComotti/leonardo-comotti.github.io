@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Hip Exoskeleton Project - Leonardo Comotti</title>
+    <title>Implementation of a Teach and Play approach for functional movements with exoskeleton</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -17,33 +17,38 @@
     <div id="main">
         <section class="post">
             <header class="major">
-                <h1>Learning User Preferences for Hip Exoskeleton Assistance</h1>
-                <p>Master Thesis at EPFL – Wearable Robotics</p>
+                <h1>Implementation of a Teach and Play approach for functional movements with exoskeleton</h1>
+                <p>Semester Project – Collaborative Robotics</p>
             </header>
 
-            <span class="image main">
-                <img src="images/pic02.jpg" alt="" />
-            </span>
+         <div style="display: flex; justify-content: center;">
+            <img src="images/Teach_and_Play.png" alt="Pants"
+                style="width: 60%; max-width: 300px; height: auto;" />
+            </div>
 
-            <p>
-            In this project I developed a framework to adapt hip exoskeleton assistance
-            based on user preferences across different locomotion conditions.
-            </p>
-
+            <p>In this work, it is proposed a procedure for the implementation of the reference trajectories, based on the “Teach and Play” approach, in order to deal with trajectory realization in upper-limb rehabilitation exoskeleton. The already mentioned “Teach and Play” approach better meets therapists’ expectations butlack consistency and optimization.  </p>
+            <p>To overcome these limitations, force sensing during the "Teach" phase is introduced to maintain transparency and ensure precise motion recording. In the "Play" phase, the systemswitches to rigid control and replay with accuracy the recorded trajectory, enabling functional movementsfor early rehabilitation in post-stroke patients with severe motor disabilities. </p>
+            <p> A drawback of this approach is the fact that the original movements are performed by human operators, that can introduce some differences from one repetition to another one. In order to find the best trajectory possible, two algorithms have been implemented. They are used to process the data obtained during the Teach phase and to have optimized trajectory for the Play phase: the first creates the mean trajectory from a set of movements and the other minimizes the jerk of the trajectories performed in the Teach phase.</p>
             <h2>Technical Contributions</h2>
             <ul>
-                <li>Control strategy development</li>
-                <li>Human-in-the-loop optimization</li>
+                <li>Algorithm Development</li>
                 <li>Experimental validation</li>
+                <li>Data Analysis</li>
             </ul>
 
             <h2>Technologies Used</h2>
             <ul>
                 <li>Python</li>
                 <li>MATLAB</li>
-                <li>Biomechanical modeling</li>
+                <li>C++</li>
             </ul>
-
+<ul class="actions special">
+    <li>
+        <a href="documents/Teach_And_Play.pdf" class="button" download>
+            Download Full Report (PDF)
+        </a>
+    </li>
+</ul>
         </section>
     </div>
 
