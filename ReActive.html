@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Hip Exoskeleton Project - Leonardo Comotti</title>
+    <title>ReActive - smart pants for functional electrical stimulation (FES) and EMG monitoring</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -17,33 +17,41 @@
     <div id="main">
         <section class="post">
             <header class="major">
-                <h1>Learning User Preferences for Hip Exoskeleton Assistance</h1>
-                <p>Master Thesis at EPFL – Wearable Robotics</p>
+                <h1>ReActive - smart pants for functional electrical stimulation (FES) and EMG monitoring</h1>
+                <p>Semester Project – Industrial Design Studio for Wearables</p>
             </header>
 
-            <span class="image main">
-                <img src="images/pic02.jpg" alt="" />
-            </span>
+         <div style="display: flex; justify-content: center;">
+            <img src="images/ReActive pants.png" alt="Pants"
+                style="width: 60%; max-width: 300px; height: auto;" />
+            </div>
 
             <p>
-            In this project I developed a framework to adapt hip exoskeleton assistance
-            based on user preferences across different locomotion conditions.
-            </p>
+            This report presents the concept and design of a smart garment integrating surface electromyography (EMG) and Functional Electrical Stimulation (FES), developed to enhance the autonomy of elderly users in the context of the Active³ – Everyone,Everywhere,Everyday project. Designed to work in synergy with the FES-bike developed at Politecnico di Milano, the trousers aim to simplify electrode placement, reduce wiring, and improve usability during assisted cycling. </p>
+            <p>The development followed a structured design process, starting from the definition of target users and system requirements, supported by literature review, patent analysis, and market research. The solution addresses the current lack of garments that integrate both EMG and FES technologies. Electrodes placement was based on SENIAM guidelines, using bipolar EMG electrodes (∅10mm, 20mm electrodes spacing) and rectangular FES electrodes (4×8cm) with rounded edges to optimize comfort and stimulation efficiency. </p>
+            <p>Positions were defined over the gluteus maximus, rectus femoris, biceps femoris, and gastrocnemius medialis. Manual and digital mapping was performed using size L Decathlon leggings, and a sewing pattern was created in Autodesk Inventor. The garment integrates Nanoleq’s GECKO ElectroSkin electrodes, PhantomLink connectors, and PhantomTape X conductive traces, ensuring stretch resistance, washability, and low skin-electrode impedance (<150 kΩ), with minimal impact on breathability. </p> 
+            <p>The system architecture separates the FES and EMG subsystems: FES electrodes connect to the preexisting trike stimulator, while custom-designed EMG units with integrated IMUs and wireless transmission handle biosignal acquisition. User interfaces include color-coded snap-fit connectors and intuitive placement markers. A preliminary prototype validated EMG signal acquisition on the rectus femoris, confirming feasibility and guiding future improvements. The proposed solution offers a scalable, wearable platform for combined EMG-FES rehabilitation tailored to the needs of elderly users.</p>
 
             <h2>Technical Contributions</h2>
             <ul>
-                <li>Control strategy development</li>
-                <li>Human-in-the-loop optimization</li>
+                <li>Algorithm Development</li>
                 <li>Experimental validation</li>
+                <li>Data Analysis</li>
             </ul>
 
             <h2>Technologies Used</h2>
             <ul>
                 <li>Python</li>
                 <li>MATLAB</li>
-                <li>Biomechanical modeling</li>
+                <li>C++</li>
             </ul>
-
+<ul class="actions special">
+    <li>
+        <a href="documents/thesis.pdf" class="button" download>
+            Download Full Report (PDF)
+        </a>
+    </li>
+</ul>
         </section>
     </div>
 
